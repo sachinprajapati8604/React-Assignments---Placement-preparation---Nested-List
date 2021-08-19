@@ -8,7 +8,7 @@ function Province ({name, cities, index }) {
 
     return (
         <li>
-            <h3 id={'state'+(index +11)} onClick={handleClick}>{name}</h3>
+            <h3 id={'state'+(index +1)} onClick={handleClick}>{name}</h3>
             {clicked ? (
                 <ul>
                 {cities.map(item=>(
